@@ -5,6 +5,8 @@ PasswordResetWebApp is a password reset service front end for most DASH applicat
 
 This project is designed to connect to dynamic backends by using a webservice variable in the URL (via UI-Router) to determine which Java backend to connect to. The backend sends email with tokens that this application verifies is valid to perform activation, or password reset on a specific URL.
 
+An working example of the PasswordResetWebApp can be found at [http://housuggest.org/PasswordReset/#/requestReset/FormBuilder](http://housuggest.org/PasswordReset/#/requestReset/FormBuilder) as it connects to the backend located on `/FormBuilder` and port `8443`.
+
 ### Getting Started
 1. Run `npm install`. This uses `package.js` and install local dependencies.
 
